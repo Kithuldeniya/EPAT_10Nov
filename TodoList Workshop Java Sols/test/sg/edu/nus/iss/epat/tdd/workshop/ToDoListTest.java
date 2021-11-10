@@ -76,4 +76,15 @@ public class ToDoListTest {
       assertFalse(tasks.contains(task2));
       assertTrue(tasks.contains(task3));
    }
+   
+   @Test
+   public void testUpdateTask() {
+      todoList.addTask(task1);
+      
+      todoList.updateTask(task1.getDescription(), task2);
+      
+      assertNull(todoList.getTask(DESC1));
+      assertEquals(1, todoList.getAllTasks().size());
+      assertEquals(task2, todoList.getTask(DESC2));
+   }
 }

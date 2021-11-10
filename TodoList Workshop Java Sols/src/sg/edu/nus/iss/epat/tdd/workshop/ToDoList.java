@@ -49,4 +49,9 @@ public class ToDoList {
       
       return completedTasks;
    }
+
+   public void updateTask(String description, Task task) {
+	   tasks.remove(description);
+	   tasks.put(task.getDescription(), task);
+	}
 }
