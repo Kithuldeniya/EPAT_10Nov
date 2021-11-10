@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="RAJITHA-LAPTOP" id="0" name="ToDoListTest" package="sg.edu.nus.iss.epat.tdd.workshop" skipped="0" tests="4" time="0.601" timestamp="2021-11-10T03:14:35">
+      <properties>
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.library.dir" value="C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib" />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+
+          <property name="env.USERPROFILE" value="C:\Users\Rajitha" />
+
+          <property name="java.specification.version" value="11" />
+
+          <property name="ant.project.name" value="TodoList Workshop Java Sols" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="java.vendor.url" value="https://openjdk.java.net/" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sg.edu.nus.iss.epat.tdd.workshop.ToDoListTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\junit\TEST-sg.edu.nus.iss.epat.tdd.workshop.ToDoListTest.xml crashfile=C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\junitvmwatcher3577522456245609748.properties propsfile=C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\junit9329951835941635347.properties" />
+
+          <property name="jdk.debug" value="release" />
+
+          <property name="env.ComSpec" value="C:\WINDOWS\system32\cmd.exe" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.version.date" value="2020-10-20" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9" />
+
+          <property name="basedir" value="C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.vm.compressedOopsMode" value="Zero based" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\Rajitha\AppData\Local" />
+
+          <property name="env.USERDOMAIN_ROAMINGPROFILE" value="RAJITHA-LAPTOP" />
+
+          <property name="env.PROCESSOR_REVISION" value="7e05" />
+
+          <property name="env.__PSLockDownPolicy" value="0" />
+
+          <property name="env.PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\" />
+
+          <property name="user.script" value="" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 126 Stepping 5, GenuineIntel" />
+
+          <property name="java.runtime.version" value="11.0.9+7-LTS" />
+
+          <property name="user.name" value="Rajitha" />
+
+          <property name="env.DriverData" value="C:\Windows\System32\Drivers\DriverData" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.vendor.version" value="18.9" />
+
+          <property name="env.COMPUTERNAME" value="RAJITHA-LAPTOP" />
+
+          <property name="env.HOMEPATH" value="\Users\Rajitha" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="env.APPDATA" value="C:\Users\Rajitha\AppData\Roaming" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Rajitha\AppData\Local\Temp\" />
+
+          <property name="java.version" value="11.0.9" />
+
+          <property name="env.Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\Rajitha\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rajitha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rajitha\.dotnet\tools;C:\Users\Rajitha\.dotnet\tools;C:\Users\Rajitha\AppData\Roaming\npm;C:\Users\Rajitha\AppData\Local\Microsoft\WindowsApps" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+          <property name="env.TMP" value="C:\Users\Rajitha\AppData\Local\Temp" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="ant.home" value="C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.11 compiled on July 10 2021" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\Rajitha\AppData\Local\Microsoft\WindowsApps;;C:\Users\Rajitha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rajitha\.dotnet\tools;C:\Users\Rajitha\.dotnet\tools;C:\Users\Rajitha\AppData\Roaming\npm;C:\Users\Rajitha\AppData\Local\Microsoft\WindowsApps;." />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.LOGONSERVER" value="\\RAJITHA-LAPTOP" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="env.MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit PDF Reader\plugins\" />
+
+          <property name="java.class.path" value="C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\bin;C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\lib\org.junit_4.13.0.v20200204-1500.jar;C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\lib\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-launcher.jar;C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant.jar;C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junit.jar;C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant-junit4.jar" />
+
+          <property name="source" value="1.8" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="user.variant" value="" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.SystemRoot" value="C:\WINDOWS" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="java.vm.specification.version" value="11" />
+
+          <property name="user.country" value="US" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="env.USERDOMAIN" value="RAJITHA-LAPTOP" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="user.home" value="C:\Users\Rajitha" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="ant.java.version" value="11" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="env.ANT_HOME" value="C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445" />
+
+          <property name="ant.file.type.TodoList Workshop Java Sols" value="file" />
+
+          <property name="ant.file.TodoList Workshop Java Sols" value="C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\build.xml" />
+
+          <property name="env.windir" value="C:\WINDOWS" />
+
+          <property name="ant.file" value="C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols\build.xml" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="ant.project.invoked-targets" value="build" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="ant.core.lib" value="C:\Users\Rajitha\.p2\pool\plugins\org.apache.ant_1.10.11.v20210720-1445\lib\ant.jar" />
+
+          <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/" />
+
+          <property name="user.dir" value="C:\Users\Rajitha\git\repository\TodoList Workshop Java Sols" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="env.USERNAME" value="Rajitha" />
+
+          <property name="env.OneDriveConsumer" value="C:\Users\Rajitha\OneDrive" />
+
+          <property name="target" value="1.8" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="java.vm.version" value="11.0.9+7-LTS" />
+
+          <property name="env.TEMP" value="C:\Users\Rajitha\AppData\Local\Temp" />
+
+          <property name="env.__COMPAT_LAYER" value="DetectorsAppHealth DetectorsShimLog" />
+
+          <property name="java.class.version" value="55.0" />
+
+          <property name="env.OneDrive" value="C:\Users\Rajitha\OneDrive" />
+
+          <property name="ant.project.default-target" value="build" />
+
+      </properties>
+
+      <testcase classname="sg.edu.nus.iss.epat.tdd.workshop.ToDoListTest" name="testAddTask" time="0.014" />
+
+      <testcase classname="sg.edu.nus.iss.epat.tdd.workshop.ToDoListTest" name="testGetCompletedTasks" time="0.001" />
+
+      <testcase classname="sg.edu.nus.iss.epat.tdd.workshop.ToDoListTest" name="testRemoveTask" time="0.001" />
+
+      <testcase classname="sg.edu.nus.iss.epat.tdd.workshop.ToDoListTest" name="testGetStatus" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
